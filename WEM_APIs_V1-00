@@ -1,4 +1,13 @@
-
+    <!DOCTYPE html> 
+    <html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>WEM APIs</title> 
+        <link rel="stylesheet" href="css/style.css"> 
+    </head> 
+    <body> 
+     <pre>
+  
    WEM PROJECT
   www.wemhub.com
 
@@ -231,3 +240,7 @@ curl -X POST https://wemhub.com/api/wem_contract
 "CID": The main Smart Contract ID
 "ContractID": The sub Smart Contract under the CID.
 "plan_type": The investiture plan term.
+
+     </pre>
+    </body> 
+    </html> 

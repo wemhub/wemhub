@@ -231,3 +231,26 @@ curl -X POST https://wemhub.com/api/wem_contract
 "CID": The main Smart Contract ID
 "ContractID": The sub Smart Contract under the CID.
 "plan_type": The investiture plan term.
+
+
+
+  ## Transfer
+
+
+ <!-- Request -->
+ 
+curl -X POST https://wemhub.com/api/wem_transfer
+   -H 'Content-Type: application/json'
+   -d '{"amount":"1000.123456789","receiver":"000-000-0000-000", "private_key":"private Key"}'
+   
+   
+"amount": The amount needs to be transfered.
+"receiver": Receiver Node Account number
+"private_key": Private key of the Node that amount needs to be withdrawn.
+
+
+ <!-- Response -->
+ {
+    "status": "success",
+    "message": "30000WEM successfully sent from 840-000-0000-404 to 840-000-0000-445. Tx_id: 0d951beaa9113fceaa028ffaa3b4c487f24b2552"
+}

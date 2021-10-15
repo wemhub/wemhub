@@ -7,7 +7,7 @@
 "Offer End Date": "23:59 12/31/2021",
 "Maturity Date": "8760 Hour/s",
 "Description": "WEM Value Generator"
-}
+},
 
 {
 "Announcement": "0002",
@@ -18,7 +18,7 @@
 "Offer End Date": "23:59 12/31/2021",
 "Maturity Date": "180 Day/s",
 "Description": "ERC20 token publication @ offer end date"
-}
+},
 
 {
 "Announcement": "0001",

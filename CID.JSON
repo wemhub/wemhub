@@ -1,0 +1,34 @@
+[
+{
+"Announcement": "0003",
+"Date": "2021-10-13 11:03:02 UTC",
+"CID": "CID-071-601-3843",
+"Rate": "0.001360%",
+"Terms": "Hourly",
+"Offer End Date": "23:59 12/31/2021",
+"Maturity Date": "8760 Hour/s",
+"Description": "WEM Value Generator"
+},
+
+{
+"Announcement": "0002",
+"Date": "2021-10-13 10:53:00 UTC",
+"CID": "CID-727-288-3742",
+"Rate": "0.024600%",
+"Terms": "Daily",
+"Offer End Date": "23:59 12/31/2021",
+"Maturity Date": "180 Day/s",
+"Description": "ERC20 token publication @ offer end date"
+},
+
+{
+"Announcement": "0001",
+"Date": "2021-10-13 10:47:29 UTC",
+"CID": "CID-329-116-5881",
+"Rate": "9.630000%",
+"Terms": "Annually",
+"Offer End Date": "23:59 12/31/2021",
+"Maturity Date": "1 Year/s",
+"Description": "TRC20 token publication @ offer end date"
+}
+]

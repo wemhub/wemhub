@@ -7,7 +7,6 @@
     "Offer End Date": "23:59 12/31/2021",
     "Maturity Date": "8760 Hour/s",
     "Description": "WEM Value Generator",
-	
 }
 
 {
@@ -18,8 +17,7 @@
     "Terms": "Daily",
     "Offer End Date": "23:59 12/31/2021",
     "Maturity Date": "180 Day/s",
-    "Description": "ERC20 token publication @ offer end date",
-	
+    "Description": "ERC20 token publication @ offer end date",	
 }
 
 {
@@ -30,6 +28,5 @@
     "Terms": "Annually",
     "Offer End Date": "23:59 12/31/2021",
     "Maturity Date": "1 Year/s",
-    "Description": "TRC20 token publication @ offer end date",
-	
+    "Description": "TRC20 token publication @ offer end date",	
 }

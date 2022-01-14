@@ -5,8 +5,8 @@
     www.wemhub.org
 
 Creation Date: September 11, 2018
-Last Update: September 28, 2021
-Ver: 1.02
+Last Update: January 14, 2022
+Ver: 1.03
 Source: ehv4bh45j2qjyazapnyhdcg42ffi6fmdjr7smwohoznnsyymqv73v2id.onion
 
 
@@ -39,7 +39,7 @@ Source: ehv4bh45j2qjyazapnyhdcg42ffi6fmdjr7smwohoznnsyymqv73v2id.onion
 
 
 
-- Fast Starter Bonus (FSB): The fast start bonus is earned when a node or investor has achieved a specific target of their first smart contract amount. 
+- First Smart Bonus (FSB): The fast start bonus is earned when a node or investor has achieved a specific target of their first smart contract amount. 
 
 
 
@@ -52,7 +52,13 @@ Source: ehv4bh45j2qjyazapnyhdcg42ffi6fmdjr7smwohoznnsyymqv73v2id.onion
 	- First Investment Over 1000WEM, then get +50WEM Credit
 	- First Investment Over 10K WEM , then get +500WEM Credit 
 
->>> Binary: 1:1 - 7.51% * The Percentage of the payout is not fixed rate and will be vary based on the value of assets held by investors. 
+>>> Binary: 1:1 - 7.51% * The Percentage of the payout is not fixed rate and will be vary based on the value of assets held by investors.
+
+>>> Binary Daily capping / Ceiling - Requirements
+1. WEM 120 /Day - <100 Active Smart contract
+2. WEM 360 / Day - +100≤WEM<1000 Active Smart Contract 
+3. WEM 1080 / Day - +1000≤WEM<10K Active Smart Contract
+4. WEM 3240 WEM / Day - +10K Active Smart Contract
 
 >>> Mega Matching Bonus: 3 levels, Downlines Binary Income
  * The Percentage of the payout is not fixed rate and will be vary based on the value of assets held by investors. *

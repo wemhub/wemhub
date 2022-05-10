@@ -3,8 +3,8 @@
   www.wemhub.com
 
  /// API DOC ///
- Last update: September 28, 2021
- Ver: 1.0
+ Last update: May 09, 2022
+ Ver: 1.1
  
 =====================================
    <<< INTRODUCTION >>>
@@ -254,3 +254,54 @@ curl -X POST https://wemhub.com/api/wem_transfer
     "status": "success",
     "message": "30000WEM successfully sent from 840-000-0000-404 to 840-000-0000-445. Tx_id: 0d951beaa9113fceaa028ffaa3b4c487f24b2552"
 }
+
+
+
+  ## Generate IN
+  
+  <!-- Request -->
+  
+  curl -X POST https://wemhub.com/api/wem_gen_in
+-H 'Content-Type: application/json'
+-d '{"addr":"Wallet Address",
+"txid":"Transaction Id BTC/ETH/LTC", "amount":"Amount(WEM)", "type":"BTC/ETH/LTC", "account":"000-000-0000-0000"}'
+
+"addr": WEM Crosschain Wallet address (see line 277 -## Calculate WEM to BTC/ETH/LTC)
+"txid": Crosschain transaction id for BTC, ETH, or LTC
+"amount": Amount of WEM needs to be transfered
+"type": The crosschain, BTC/ETH/LTC
+"account": WEM Node ID / Account number 
+
+
+
+  ## Calculate WEM to BTC/ETH/LTC
+  
+  <!-- Request -->
+
+curl -X POST https://wemhub.com/api/wem_genin_calculate
+   -H 'Content-Type: application/json'
+   -d '{"wemcount":"369"}'
+   
+   "wemcount": The amount of WEM needs to be exchanged
+   
+   
+ <!-- Response -->
+ 
+ {
+    "BTC": {
+        "amount": 0.0117340175004279310966293081719413748942315578460693359375,
+        "to": "bc1q2qj48yn3txa2srrpydzlhu7dn23l8xc4vsazt5"
+    },
+    "ETH": {
+        "amount": 0.1563351309670943101171047828756854869425296783447265625,
+        "to": "0xb31ae96e0eb0311c30f79ccdb1f99d92cca1141f"
+    },
+    "LTC": {
+        "amount": 4.55158900726349013865501547115854918956756591796875,
+        "to": "ltc1qfy5j69d3lm9tqfgkypcpu7gea7pg9lph5r3vl4"
+    },
+    "status": "success",
+    "WEMPrice": "0.9906181928816555$"
+}
+ 
+   

@@ -6,7 +6,7 @@
 /-----------------------/
 
 # 2021-10-12 21:59:58 UTC
-WEM Project has lunched for those who are interested in high return.
+WEM Project has launched for those who are interested in high return.
 The new paradigm which stabilizing the value of a currency.
 Our vision is to become a Global Social Media Marketing System powered entirely by digital currency.
 To get there, we planed to release three products.
